@@ -1,7 +1,6 @@
 const express = require("express");
 const verifyToken = require("../middleware/verify-token.js");
 const Job = require("../models/job.js");
-const { verify } = require("jsonwebtoken");
 const router = express.Router();
 
 // POST ROUTES
